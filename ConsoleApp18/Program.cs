@@ -10,7 +10,10 @@ namespace ConsoleApp18
     {
         static void Main(string[] args)
         {
+            int a = 10, b = 20;
+            Console.WriteLine("Summation of a and b is: " + (a + b));
             Console.WriteLine("Hi. This is the first change");
+            Console.Read();
         }
     }
 }
